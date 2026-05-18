@@ -61,3 +61,4 @@ Run tuning.ipynb and tuning-2.ipynb — one subsection per method, each saves re
 
 ## Notes
 - Random seed fixed at 42 for reproducibility.
+- All paths in the notebooks marked as `C:\path\to\these\...` must be updated to match your local directory structure before running.
