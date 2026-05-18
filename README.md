@@ -30,7 +30,7 @@ Python 3.14.3. Install dependencies with:
     │   │   ├── sweep3_length_ratio/ # Sensitivity: length ratio (Short/Long)
     │   │   ├── sweep4_width_ratio/  # Sensitivity: width ratio (Low/High)
     │   │   └── sweep5_size/         # Sensitivity: instance size (XS/S/L/XL)
-    │   └── omp_instances_updated/   # Real OMP instances
+    │   └── company_instances_updated/   # Real company instances
 
 ## How to Run the main.ipynb
 
