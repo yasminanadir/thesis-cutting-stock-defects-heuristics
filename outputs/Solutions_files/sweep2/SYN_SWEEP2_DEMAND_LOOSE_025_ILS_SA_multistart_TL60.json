@@ -1,0 +1,44 @@
+{
+  "instance": "SYN_SWEEP2_DEMAND_LOOSE_025",
+  "method": "ILS_SA",
+  "start_method": "multistart",
+  "time_limit": 60.0,
+  "cost": 1768.1223,
+  "is_feasible": true,
+  "unmet": {},
+  "overprod": {},
+  "elapsed_sec": 60.01,
+  "active": {
+    "S25": [
+      [
+        "PAT_1051",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0537",
+        0,
+        3482.41
+      ]
+    ],
+    "S17": [
+      [
+        "PAT_0993",
+        0,
+        0.0
+      ]
+    ],
+    "S12": [
+      [
+        "PAT_0298",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0974",
+        0,
+        4137.8368
+      ]
+    ]
+  }
+}

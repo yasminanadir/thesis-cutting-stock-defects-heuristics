@@ -1,0 +1,48 @@
+{
+  "instance": "SYN_SWEEP5_SIZE_XS_018",
+  "method": "SD",
+  "start_method": "greedy",
+  "time_limit": 60.0,
+  "cost": 1801.9595,
+  "is_feasible": false,
+  "unmet": {
+    "P3": 2
+  },
+  "overprod": {},
+  "elapsed_sec": 0.27,
+  "active": {
+    "S1": [
+      [
+        "PAT_0001",
+        0,
+        0.0
+      ]
+    ],
+    "S5": [
+      [
+        "PAT_0060",
+        0,
+        0.0
+      ]
+    ],
+    "S6": [
+      [
+        "PAT_0044",
+        0,
+        3589.7495
+      ]
+    ],
+    "S4": [
+      [
+        "PAT_0003",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0013",
+        0,
+        3643.6521000000002
+      ]
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "instance": "20260416190544_40Orders70Stocks",
+  "method": "VNS_SA",
+  "start_method": "greedy",
+  "time_limit": 60.0,
+  "cost": 0.0,
+  "is_feasible": true,
+  "unmet": {},
+  "overprod": {},
+  "elapsed_sec": 6.27,
+  "active": {}
+}

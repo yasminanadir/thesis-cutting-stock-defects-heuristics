@@ -1,0 +1,49 @@
+{
+  "instance": "SYN_SWEEP2_DEMAND_LOOSE_014",
+  "method": "SA",
+  "start_method": "multistart",
+  "time_limit": 60.0,
+  "cost": 1997.1471,
+  "is_feasible": true,
+  "unmet": {},
+  "overprod": {},
+  "elapsed_sec": 60.02,
+  "active": {
+    "S14": [
+      [
+        "PAT_0082",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0040",
+        0,
+        4238.0366
+      ]
+    ],
+    "S10": [
+      [
+        "PAT_0092",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0036",
+        0,
+        2936.5971
+      ],
+      [
+        "PAT_0098",
+        0,
+        6143.9485
+      ]
+    ],
+    "S20": [
+      [
+        "PAT_0002",
+        0,
+        1719.0041
+      ]
+    ]
+  }
+}

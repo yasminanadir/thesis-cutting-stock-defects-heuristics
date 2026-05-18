@@ -1,0 +1,53 @@
+{
+  "instance": "SYN_SWEEP2_DEMAND_LOOSE_006",
+  "method": "GRASP_SA",
+  "start_method": "none",
+  "time_limit": 60.0,
+  "cost": 1886.9502,
+  "is_feasible": true,
+  "unmet": {},
+  "overprod": {
+    "P3": 1,
+    "P4": 1,
+    "P6": 1
+  },
+  "elapsed_sec": 60.09,
+  "active": {
+    "S16": [
+      [
+        "PAT_1068",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0715",
+        1,
+        1833.2149
+      ]
+    ],
+    "S17": [
+      [
+        "PAT_0070",
+        0,
+        0.0
+      ],
+      [
+        "PAT_1165",
+        0,
+        2427.8155
+      ]
+    ],
+    "S19": [
+      [
+        "PAT_0118",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0954",
+        0,
+        2427.8155
+      ]
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "instance": "SYN_SWEEP5_SIZE_XS_018",
+  "method": "GRASP_SA",
+  "start_method": "none",
+  "time_limit": 60.0,
+  "cost": 1250.8834,
+  "is_feasible": false,
+  "unmet": {
+    "P3": 2
+  },
+  "overprod": {},
+  "elapsed_sec": 14.6,
+  "active": {
+    "S6": [
+      [
+        "PAT_0044",
+        0,
+        2882.5587
+      ]
+    ],
+    "S5": [
+      [
+        "PAT_0021",
+        0,
+        0.0
+      ]
+    ],
+    "S1": [
+      [
+        "PAT_0060",
+        0,
+        0.0
+      ]
+    ]
+  }
+}

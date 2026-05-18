@@ -1,0 +1,12 @@
+{
+  "instance": "20260416190544_40Orders70Stocks",
+  "method": "GRASP_SA",
+  "start_method": "none",
+  "time_limit": 60.0,
+  "cost": 0.0,
+  "is_feasible": true,
+  "unmet": {},
+  "overprod": {},
+  "elapsed_sec": 338.07,
+  "active": {}
+}

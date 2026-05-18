@@ -1,0 +1,34 @@
+{
+  "instance": "SYN_SWEEP5_SIZE_XS_021",
+  "method": "VNS_SA",
+  "start_method": "greedy",
+  "time_limit": 60.0,
+  "cost": 1025.6747,
+  "is_feasible": true,
+  "unmet": {},
+  "overprod": {},
+  "elapsed_sec": 0.59,
+  "active": {
+    "S6": [
+      [
+        "PAT_0009",
+        0,
+        2106.7646
+      ]
+    ],
+    "S3": [
+      [
+        "PAT_0013",
+        0,
+        0.0
+      ]
+    ],
+    "S8": [
+      [
+        "PAT_0013",
+        0,
+        0.0
+      ]
+    ]
+  }
+}

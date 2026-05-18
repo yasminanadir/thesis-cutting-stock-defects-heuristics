@@ -1,0 +1,57 @@
+{
+  "instance": "SYN_SWEEP5_SIZE_XS_018",
+  "method": "ILS_SA",
+  "start_method": "multistart",
+  "time_limit": 60.0,
+  "cost": 2163.4266,
+  "is_feasible": false,
+  "unmet": {
+    "P3": 1
+  },
+  "overprod": {
+    "P5": 1
+  },
+  "elapsed_sec": 2.68,
+  "active": {
+    "S5": [
+      [
+        "PAT_0060",
+        0,
+        0.0
+      ]
+    ],
+    "S1": [
+      [
+        "PAT_0060",
+        0,
+        0.0
+      ]
+    ],
+    "S4": [
+      [
+        "PAT_0043",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0013",
+        0,
+        2868.3497
+      ]
+    ],
+    "S3": [
+      [
+        "PAT_0033",
+        0,
+        655.0354
+      ]
+    ],
+    "S6": [
+      [
+        "PAT_0014",
+        0,
+        1918.1654
+      ]
+    ]
+  }
+}

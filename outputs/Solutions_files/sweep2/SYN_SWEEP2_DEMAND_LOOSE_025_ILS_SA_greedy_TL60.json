@@ -1,0 +1,46 @@
+{
+  "instance": "SYN_SWEEP2_DEMAND_LOOSE_025",
+  "method": "ILS_SA",
+  "start_method": "greedy",
+  "time_limit": 60.0,
+  "cost": 1985.9058,
+  "is_feasible": true,
+  "unmet": {},
+  "overprod": {
+    "P7": 1
+  },
+  "elapsed_sec": 60.05,
+  "active": {
+    "S16": [
+      [
+        "PAT_0999",
+        0,
+        1747.5608
+      ]
+    ],
+    "S4": [
+      [
+        "PAT_1051",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0311",
+        1,
+        4911.2145
+      ]
+    ],
+    "S26": [
+      [
+        "PAT_0507",
+        0,
+        0.0
+      ],
+      [
+        "PAT_0980",
+        1,
+        3607.5348
+      ]
+    ]
+  }
+}
