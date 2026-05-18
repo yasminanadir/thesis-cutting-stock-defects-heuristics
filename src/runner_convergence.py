@@ -20,8 +20,8 @@ from src.metaheuristic import (
     SimulatedAnnealing, VNS, IteratedLocalSearch, TabuSearch, SimulatedAnnealingAdaptiveAlpha
 )
 
-SOLUTIONS_DIR   = r"C:\Users\Isabelle\Documents\these\outputs\solutions_convergence"
-CONVERGENCE_DIR = r"C:\Users\Isabelle\Documents\these\outputs\convergence_logs"
+SOLUTIONS_DIR   = r"C:\path\to\your\thesis\outputs\solutions_convergence"
+CONVERGENCE_DIR = r"C:\path\to\your\thesis\outputs\convergence_logs"
 
 os.makedirs(SOLUTIONS_DIR,   exist_ok=True)
 os.makedirs(CONVERGENCE_DIR, exist_ok=True)
@@ -382,7 +382,7 @@ def run_method(
                     init_ls_iterations      = cfg.get("init_ls_iterations", 9999),
                     active_moves            = cfg.get("active_moves", {"relocate"}),
                     T_init                  = cfg.get("T_init", 100.0),
-                    alpha                   = cfg.get("alpha", 0.997561),
+                    alpha                   = cfg.get("alpha", 0.9999),
                     sa_neighborhood_weights = cfg.get("sa_neighborhood_weights", None),
                     perturb_k               = cfg["perturb_k"],
                     perturb_k_max           = cfg.get("perturb_k_max", 3),
@@ -583,7 +583,7 @@ METHODS_CONFIG = {
         "init_ls_time"           : 20.0,
         "init_ls_iterations"     : 9999,
         "T_init"                 : 100.0,
-        "alpha"                  : 0.997561,
+        "alpha"                  : 0.9999,
         "sa_neighborhood_weights": {
             "remove": 1.0, "swap": 2.0,
             "relocate": 4.0, "stock_reset": 3.0, "pattern_replace_all": 1.0,
