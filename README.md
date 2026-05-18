@@ -30,22 +30,22 @@ https://drive.google.com/drive/folders/1FAiTSRaxQHdXBkbnvYePEMy2qSXeygrU?usp=sha
 
 ## How to Run the main.ipynb
 ### Step 1 — Imports and setup
-Run cell [Code 0] — imports all required modules.
+Run cell  — imports all required modules.
 
 ### Step 2 — Load instances
-Run cell [Code 7] — loads test instances from Data/testing/ into check_instances.
-For tuning, run cell [Code 39] — loads instances from Data/tuning/.
+Run cell — loads test instances from Data/testing/ into check_instances.
+For tuning, run cell  — loads instances from Data/tuning/.
 
 ### Step 3 — Run experiments
-Run cell [Code 20] — imports runner.py and METHODS_CONFIG.
+Run cell — imports runner.py and METHODS_CONFIG.
 Then run the main runner loop — iterates over all methods and instances.
 Results are saved as JSON in SOLUTIONS_DIR defined in runner.py.
 To run with convergence logging, import runner_convergence.py instead.
 This saves both JSON solutions and convergence CSV files.
 
 ### Step 4 — Visualize solutions
-Run cell [Code 25] to visualize one solution interactively.
-Run cell [Code 27] to save all solutions as PDFs to output/pdfs/.
+Run cell to visualize one solution interactively.
+Run cell to save all solutions as PDFs to output/pdfs/.
 
 ### Step 5 — Convergence plots
 Run the cells under the Convergence section to generate plots per method and category.
